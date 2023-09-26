@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./../img/karsten-winegeart-TLOII3p-rvA-unsplash.jpg);
+    width: 100vh;
+    background-size: cover;
+}
+
+@font-face {    
+    font-family: "croissant";
+    src: url(./../fonts/Croissant_One/CroissantOne-Regular.ttf);
+}
+
+main {
+    padding: 5%;
+    /* background-image: url(./../img/karsten-winegeart-TLOII3p-rvA-unsplash.jpg);
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover; */
+
+}
+
+article {
+    padding: 2%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5rem;
+    /* opacity: 0.5; */
+    background-color: azure;
+    /* margin-inline: 100px; */
+}
+
+h1 {
+    font-size: 2rem;
+    text-shadow: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
